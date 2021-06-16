@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Tiles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="getRandomColor();timeSet()">
+    <h1>COLOUR TILES</h1>
+    <button class="btn" onclick="getRandomColor(); reset();">RESET</button>
+    <div class="count">Moves: <span class="num">0</span>
+        <span class="timer"><span class="minutes">Timer: 00</span>:<span class="seconds">00</span></span>
+        </div>
+    <div class="small-grid-container">
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+        <div class="grid-element"></div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-element" onclick="changeColor(this,0)"></div>
+        <div class="grid-element" onclick="changeColor(this,1)"></div>
+        <div class="grid-element" onclick="changeColor(this,2)"></div>
+        <div class="grid-element" onclick="changeColor(this,3)"></div>
+        <div class="grid-element" onclick="changeColor(this,4)"></div>
+        <div class="grid-element" onclick="changeColor(this,5)"></div>
+        <div class="grid-element" onclick="changeColor(this,6)"></div>
+        <div class="grid-element" onclick="changeColor(this,7)"></div>
+        <div class="grid-element" onclick="changeColor(this,8)"></div>
+        <div class="grid-element" onclick="changeColor(this,9)"></div>
+        <div class="grid-element" onclick="changeColor(this,10)"></div>
+        <div class="grid-element" onclick="changeColor(this,11)"></div>
+        <div class="grid-element" onclick="changeColor(this,12)"></div>
+        <div class="grid-element" onclick="changeColor(this,13)"></div>
+        <div class="grid-element" onclick="changeColor(this,14)"></div>
+        <div class="grid-element" onclick="changeColor(this,15)"></div>
+        <div class="grid-element" onclick="changeColor(this,16)"></div>
+        <div class="grid-element" onclick="changeColor(this,17)"></div>
+        <div class="grid-element" onclick="changeColor(this,18)"></div>
+        <div class="grid-element" onclick="changeColor(this,19)"></div>
+        <div class="grid-element" onclick="changeColor(this,20)"></div>
+        <div class="grid-element" onclick="changeColor(this,21)"></div>
+        <div class="grid-element" onclick="changeColor(this,22)"></div>
+        <div class="grid-element" onclick="changeColor(this,23)"></div>
+        <div class="grid-element" onclick="changeColor(this,24)"></div>
+      </div>
+      <div class="WIN"></div>
+      <div class="score"></div>
+    <script src="app.js"></script>
+</body>
+<footer>
+    <p>Made with <span class="egg"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">❤️</a></span>by Rahil</p>
+</footer>
+</html>

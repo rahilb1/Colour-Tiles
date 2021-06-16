@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4b2452;
+    background-color:beige;
+    margin: 0%;
+}
+.small-grid-container {
+    display: grid;
+    justify-content: center;
+    grid-gap: 2px 2px;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px;
+    background-color: #b1c4d4;
+    padding: 10px;
+  }
+  
+  .grid-element {
+    background-color: #A9A9A9;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .grid-container{
+    display: grid;
+    justify-content: center;
+    grid-gap: 2px 2px;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    background-color: #b1c4d4;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    padding-top: 1rem auto;
+  }
+  
+  .btn {
+    background: #fa8072;
+    border: none;
+    border-radius: 2px;
+    font-size: 1 rem;
+    outline: none;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    color: #301934;
+    float: right;
+    font-weight: bolder;
+  }
+  
+  .btn:hover {
+    background: #301934;
+    border: 2px solid #fa8072;
+    transition: 200000ms;
+    transform: scale(1.1);
+    color: #fa8072;
+  }
+  
+  .WIN {
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'cascadia code';
+    text-align: center;
+  }
+  
+  .score {
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'cascadia code';
+    text-align: center;
+  }
+  .count {
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'cascadia code';
+    text-align: center;
+  }
+  
+  .timer {
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 4px;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'cascadia code';
+    text-align: right;
+  }
+ footer {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+}
